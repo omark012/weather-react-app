@@ -1,6 +1,7 @@
 > # Weather App
-> It is a React based Weather App which provide weather forecast for cities.
-> Weather App is a useful application for everyone, designed simple, easy to use.
+[Go to Weather app](weather-react21.netlify.app)
+ It is a React based Weather App which provide weather forecast for cities.
+ Weather App is a useful application for everyone, designed simple, easy to use.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
