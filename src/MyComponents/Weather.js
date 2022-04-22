@@ -7,28 +7,27 @@ export const Weather = () => {
 
     const [city, setCity] = useState("chennai");
     const [data, setData] = useState();
-    const [country, setCountry] = useState("")
+    const [country, setCountry] = useState("");
     const [weather, setWeather] = useState("");
 
     const handleInput = (e) => {
         setCity(e.target.value)
     }
 
- 
 
     useEffect(() => {
         const fetchApi = async () => {
-            const res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=a07038c9dfa2c04fa6f474978b3ed73d`);
-            const data = await res.json();
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=66911abc9fc0452fd73475b4245eb109`);
+            const data = await response.json();
             setData(data.main);
-            setWeather(data.weather[0])
+            setWeather(data.weather[0]);
             setCountry(data.sys.country);
         }
         fetchApi();
     }, [city]);
 
     return (
-        <div className="container">
+        <section className="container">
 
             <div className="search-box">
                 <input
@@ -57,7 +56,7 @@ export const Weather = () => {
                 </div>
             )
                 : (<p className="error">No data Found</p>)}
-        </div>
+        </section>
     )
 }
 
