@@ -1,14 +1,14 @@
 > # Weather App
 [Go to Weather app](https://cloudpoint.netlify.app)
 
+
 Developed a cutting-edge ReactJS Weather app that is designed to provide you with accurate and up-to-date weather information.
 The app utilizes the OpenWeatherMap API for seamless data retrieval, ensuring that you have access to the latest weather data anytime, anywhere.
-App have been integrated with axios for seamless API connectivity, making the app even more efficient and reliable. 
+App have been integrated with Fetch API for seamless API connectivity, making the app even more efficient and reliable. 
 
 Try it out today and stay ahead of the weather!
- It is a React based Weather App which provide weather forecast for cities.
- Weather App is a useful application for everyone, designed simple, easy to use.
 
+ 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
