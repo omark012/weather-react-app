@@ -1,10 +1,10 @@
 > # Weather App
-[Go to Weather app](https://cloudpoint.netlify.app)
+### `Demo link` :  [Go to Weather app](https://cloudpoint.netlify.app)
 
 
-Developed a cutting-edge ReactJS Weather app that is designed to provide you with accurate and up-to-date weather information.
-The app utilizes the OpenWeatherMap API for seamless data retrieval, ensuring that you have access to the latest weather data anytime, anywhere.
-App have been integrated with Fetch API for seamless API connectivity, making the app even more efficient and reliable. 
+Developed a cutting-edge **React.js** Weather app that is designed to provide you with accurate and up-to-date weather information.
+The app utilizes the **OpenWeatherMap API** for seamless data retrieval, ensuring that you have access to the latest weather data anytime, anywhere.
+App have been integrated with **Fetch API** for seamless API connectivity, making the app even more efficient and reliable. 
 
 Try it out today and stay ahead of the weather!
 
